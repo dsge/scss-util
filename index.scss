@@ -1,0 +1,19 @@
+@mixin unselectable() {
+    -webkit-user-select : none;
+    -moz-user-select    : none;
+    -ms-user-select     : none;
+    -o-user-select      : none;
+    user-select         : none;
+}
+
+@mixin reset-ul(){
+    margin-left: 0;
+    padding-left: 0;
+    list-style-type: none;
+    li{
+        margin-left: 0;
+        padding-left: 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
